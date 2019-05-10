@@ -21,6 +21,11 @@ Thumbs.db
 *.out
 cmake-build-debug/
 
+######################
+# Swift Ignore files #
+######################
+*.xcuserstate
+
 ##########################
 # Jetbrains Ignore files #
 ##########################
