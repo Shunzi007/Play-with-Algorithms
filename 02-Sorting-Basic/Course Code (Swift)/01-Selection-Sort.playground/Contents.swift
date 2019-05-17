@@ -8,9 +8,10 @@ func selectionSort(array: [Int]) -> [Int] {
         // 寻找[i, n)区间里的最小值
         for j in i + 1..<count {
             if arr[j] < arr[minIndex] {
-                arr.swapAt(j, minIndex)
+                minIndex = j
             }
         }
+        arr.swapAt(i, minIndex)
     }
     return arr
 }
